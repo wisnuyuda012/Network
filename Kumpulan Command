@@ -1,0 +1,42 @@
+Cisco Command
+
+sh int desc | in Manti
+sh run int bd 323
+show ip vrf WAN-NMS-MS
+show arp vrf INTERNET-CORPORATE-II BDI101 = Contoh
+ping vrf WAN-NMS-MS 172.26.138.20
+telnet 172.26.146.114 /vrf WAN-NMS-MS
+=============================================================================================================================================================================================
+Fortigate 
+
+get router info bgp summary => memunculkan bgp routing
+get router info bgp neighbors [ip] received routes => Memunculkan 
+execute ssh admin@ip
+execute ssh-option source
+execute ssh
+get router info routing-table details [ip]
+get router info bgp neighbors [ip] received-routes
+get router info bgp neighbors [ip] advertised-routes
+
+=============================================================================================================================================================================================
+
+Mikrotik
+
+ssh -p 21112 username@ipaddress 
+telnet ipaddress
+system resource print
+system note print
+system health print
+ip service print
+ip address print
+ip arp print
+interface print 
+interface ethernet print
+log print
+ip dhcp-server lease pr
+ping 8.8.8.8 
+ping 8.8.8.8 bridge_lan_ip
+user print
+tool traceroute 8.8.8.8
+tool speedtest address=ip_address username=nama_user password=password_user
+interface monitor-traffic interface=sfp-sfpplus2-gw-brin-1
