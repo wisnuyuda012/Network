@@ -40,3 +40,18 @@ user print
 tool traceroute 8.8.8.8
 tool speedtest address=ip_address username=nama_user password=password_user
 interface monitor-traffic interface=sfp-sfpplus2-gw-brin-1
+
+=============================================================================================================================================================================================
+
+Juniper 
+
+show dhcp server binding
+show configuration system services | display set
+
+ping 8.8.8.8 source [ip]
+
+sh int terse > buat cek up down interface
+configure 
+set interface [nama_interface] [disable] > jika ingin disable port interface
+commit check > untuk mengecek configuration yang sudah diubah
+commit and-quit > save as and quit configuration
